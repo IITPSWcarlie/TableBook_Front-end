@@ -1,0 +1,16 @@
+#popupDom {
+    position: fixed;
+    left: 35%;
+    width: 540px;
+    height: 470px;
+    display: block;
+    z-index: -100;
+}
+
+.menuName {
+    width: 100px;
+}
+
+.menuFile {
+    width: 150px;
+}
