@@ -1,0 +1,156 @@
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* ************************************ */
+/* Header */
+
+.Header {
+    padding: 30px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.userImg {
+    width: 70px;
+    float: left;
+}
+.userImg img {
+    vertical-align: middle;
+}
+.userInfo {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+.userInfo h2, .userInfo h3 {
+    display: block;
+    float: left;
+    margin: 3px 0px;
+}
+.moreInfo {
+    width: 60px;
+    float: right;
+    height: 70px;
+}
+.moreInfo a {
+    display: block;
+    float: right;
+    margin-top: 20px;
+}
+
+/* ************************************ */
+/* OngoingBooking */
+
+.ongoingBooking {
+    padding: 1px 20px 20px;
+}
+
+.ongoingBooking h2{
+    text-align: left;
+}
+
+.ongoingBooking h3, .ongoingBooking h4, .ongoingBooking h5 {
+    margin: 3px;
+    text-align: left;
+}
+
+.ongoingBooking h5 {
+    margin-top: 7px;
+    overflow-wrap: break-word;
+}
+
+.bookingInfoItem {
+    border: #003366 solid 1px;
+    padding: 7px;
+}
+
+/* ************************************ */
+/* pastBooking */
+
+.pastBooking {
+    padding: 1px 20px 20px;
+}
+.pastBooking h2{
+    text-align: left;
+}
+.pastBooking h4, .pastBooking h5 {
+    margin: 3px;
+    text-align: left;
+}
+.pBookingListBox {
+    height: 121px;
+}
+.pBookingListItem {
+    width: 30%;
+    float: left;
+    margin: 10px 1.5%;
+} 
+
+/* ************************************ */
+/* reviews */
+
+.reviews {
+    padding: 1px 20px 20px;
+}
+.reviews h2{
+    text-align: left;
+}
+.reviews h4, .reviews h5 {
+    margin: 3px;
+    text-align: left;
+}
+.reviewListItem {
+    height: 80px;
+    margin: 10px 1.5%;
+}
+.reviewListItem img {
+    float: left;
+    margin-right: 10px;
+}
+.reviewListItem h5 {
+    margin-top: 4px;
+    word-break: break-all;
+}
+.reviewContent {
+    height: 70px;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+/* ************************************ */
+/* etc. */
+
+.red {
+    color: red;
+}
+
+.footer {
+    padding: 8px 3px;
+}
+.footer p {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5px 10px;
+}

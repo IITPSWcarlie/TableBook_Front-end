@@ -1,0 +1,48 @@
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input {
+    font-size: 20px;
+}
+
+.map {
+    position: absolute;
+    height: 500px;
+    margin-top: 0;
+    z-index: -1000;
+}
+
+.searchBar {
+    position: relative;
+    margin-top: -825px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 700px;
+    z-index: 1000;
+}
+{/*
+.navBar {
+    vertical-align: bottom;
+    background-color: #003366;
+}
+
+.navBar a {
+    width: 100px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+*/}

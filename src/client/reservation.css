@@ -1,0 +1,50 @@
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+td {
+    padding-right: 20px; 
+}
+
+input {
+    float: right;
+    margin-right: 5px;
+}
+
+input.inputN {
+    display: inline-block;
+    float: none;
+}
+
+/* ************************************ */
+/* button */
+
+.bookingButton {
+    background-color: #003366;
+    height: 60px;
+    padding: 5px;
+}
+.bookingButton h1 {
+    text-align: center;
+}
