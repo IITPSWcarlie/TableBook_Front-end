@@ -1,3 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    width: 30%;
+}
+
+.fileInput {
+    width: 100%;
+}
+
+.signatureMenu .fileInput {
+    float: right;
+    width: 70%;
+}
+
+/* ************************************ */
+/* Postal Code */
+/*
 #popupDom {
     position: fixed;
     left: 35%;
@@ -6,11 +27,41 @@
     display: block;
     z-index: -100;
 }
+*/
 
+/* ************************************ */
+/* Signature Menu */
+/*
 .menuName {
     width: 100px;
 }
 
 .menuFile {
     width: 150px;
+}
+*/
+
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
 }

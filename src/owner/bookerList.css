@@ -1,0 +1,127 @@
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input.datePicker {
+    float: none;
+    margin: auto;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+/* ************************************ */
+/* UpcomingBooking */
+
+.upcomingBooking {
+    padding: 1px 20px 20px;
+}
+
+.upcomingBooking h2{
+    text-align: left;
+}
+
+.upcomingBooking h3, .upcomingBooking h4, .upcomingBooking h5 {
+    margin: 3px;
+    text-align: left;
+}
+
+.upcomingBooking h5 {
+    margin-top: 7px;
+    overflow-wrap: break-word;
+}
+
+.bookingInfoItem {
+    border: #003366 solid 1px;
+    border-collapse: separate;
+    padding: 5px;
+}
+
+/* ************************************ */
+/* pastBooking */
+
+.pastBooking {
+    padding: 1px 20px 20px;
+}
+.pastBooking h2{
+    text-align: left;
+}
+.pastBooking h4, .pastBooking h5 {
+    margin: 3px;
+    text-align: left;
+}
+.pBookingListBox {
+    height: 121px;
+}
+.pBookingListItem {
+    width: 30%;
+    float: left;
+    margin: 10px 1.5%;
+} 
+
+/* ************************************ */
+/* reviews */
+
+.reviews {
+    padding: 1px 20px 20px;
+}
+.reviews h2{
+    text-align: left;
+}
+.reviews h4, .reviews h5 {
+    margin: 3px;
+    text-align: left;
+}
+.reviewListItem {
+    height: 80px;
+    margin: 10px 1.5%;
+}
+.reviewListItem img {
+    float: left;
+    margin-right: 10px;
+}
+.reviewListItem h5 {
+    margin-top: 4px;
+    word-break: break-all;
+}
+.reviewContent {
+    height: 70px;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+/* ************************************ */
+/* etc. */
+
+.red {
+    color: red;
+}
+
+.footer {
+    padding: 8px 3px;
+}
+.footer p {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5px 10px;
+}

@@ -1,19 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './storeInfo.css';
 
 function StoreInfo() {
-    // 팝업창 상태 관리
-    const [isPopupOpen, setIsPopupOpen] = useState(false)
- 
-	// 팝업창 열기
-    const openPostCode = () => {
-        setIsPopupOpen(true)
-    }
- 
-	// 팝업창 닫기
-    const closePostCode = () => {
-        setIsPopupOpen(false)
-    }
     return (
         <div>
             <h1>식당 정보</h1>
