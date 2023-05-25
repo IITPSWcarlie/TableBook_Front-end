@@ -1,0 +1,50 @@
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h1.title {
+    margin-top: 20px;
+}
+
+td {
+    padding-right: 20px; 
+}
+
+input {
+    float: right;
+    margin-right: 5px;
+}
+
+input.inputN {
+    display: inline-block;
+    float: none;
+}
+
+/* ************************************ */
+/* button */
+
+.savingButton {
+    background-color: #003366;
+    height: 40px;
+    padding: 10px;
+}
+.savingButton h1 {
+    text-align: center;
+}

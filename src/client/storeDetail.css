@@ -1,0 +1,123 @@
+/* ************************************ */
+/* Backbar */
+
+a {
+    text-align: left;
+    text-decoration: none;
+    color: #e4dccf;
+}
+
+.backBar {
+    padding-left: 15px;
+    background-color: #003366;
+    height: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+svg {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* ************************************ */
+/* Header */
+
+.imgSlides {
+    padding: 30px;
+    height: 100px;
+}
+.userImg {
+    width: 70px;
+    float: left;
+}
+
+
+.detailInfo h3, .detailInfo h4 {
+    margin: 5px 20px;
+    text-align: left;
+}
+
+
+/* ************************************ */
+/* menus */
+
+.menuListBox {
+    padding: 1px 20px 20px;
+}
+
+summary.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.menuListBox h4, .menuListBox h5 {
+    margin: 0px;
+    text-align: left;
+}
+.menuListItem {
+    height: 80px;
+    margin: 10px 1.5%;
+}
+.menuListItem img {
+    float: left;
+    margin-right: 10px;
+}
+.menuListItem h5 {
+    margin-top: 4px;
+    word-break: break-all;
+}
+.menuContent {
+    height: 70px;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+/* ************************************ */
+/* OngoingBooking */
+
+.reviewListSector {
+    padding: 1px 20px 20px;
+}
+
+.reviewListSector h2{
+    text-align: left;
+}
+
+.reviewListSector h3, .reviewListSector h4, .reviewListSector h5 {
+    margin: 3px;
+    text-align: left;
+}
+
+.reviewListSector h5 {
+    margin-top: 7px;
+    overflow-wrap: break-word;
+}
+
+.reviewListSectorItem {
+    border: #003366 solid 1px;
+    padding: 7px;
+}
+
+/* ************************************ */
+/* bookingBtn */
+
+.bookingBtn {
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    width: 80%;
+    margin: 0px 5% 20px;
+    padding: 7px 20px 10px;
+    background-color: #003366;
+}
+.bookingBtn h2{
+    text-align: center;
+}
