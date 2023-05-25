@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-//import DaumPost from './daumPost';
-//import PopupDom from './popupDom';
 import './addStore.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
 function AddStore() {
-    
     return (
         <div>
             <div className='backBar'>
@@ -111,21 +109,7 @@ function AddStore() {
                         <input type="file" className='fileInput' multiple></input>
                     </td>
                 </tr>
-            </table>
-            {/*
-            <div id='popupDom'>
-                {
-                    isPopupOpen && (
-                        <PopupDom>
-                            <DaumPost onClose={closePostCode} />
-                        </PopupDom>
-                    )
-                    // z-index 조절
-                }
-            </div>
-            */}
-
-            
+            </table>            
             <br /><br />
             <input type="submit" value={"식당 등록"}/>
             <br/>
