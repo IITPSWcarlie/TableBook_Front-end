@@ -14,7 +14,7 @@ function KakaoMap() {
 
     return (
         <div id="map" style={{
-            height: '865px'
+            height: '865px', width: '100vw'
         }}></div>
     )
 }

@@ -3,7 +3,7 @@ import './reviewWrite.css';
 
 function ReviewWrite() {
     return (
-        <div>
+        <div style={{ width: '100vw', marginTop:'10px'}}> 
             <h1>식당 이름</h1>
             <hr/>
             <h3>리뷰</h3>

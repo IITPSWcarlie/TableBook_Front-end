@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import "reset.css";
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+header, div, label, input, button{
+  font-family: 'SUITE-Regular';
+}
+h1{
+  font-family:'bitbit';
+  font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { 
+  padding-top: 60px;
+  text-align: center; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 1vh;
+  position: relative;
+}
+
+.App-header{
+  font-family:'bitbit';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 50px;
+  background-color: #eee;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 5vh;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+label{
+  text-align: left;
+  font: bold;
+}
+input{
+  margin: 1vh 0 3vh 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button{
+  margin: 1rem;
+  border-radius: 3em;
+  background-color: #fff;
+  color: #000;
+}
+
+.owner{ visibility: visible; }
+.customer{ 
+  visibility: hidden;
+  height: 0;
+  margin: 0; padding: 0;
 }

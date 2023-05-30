@@ -4,16 +4,17 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function StoreDetail() {
     return (
-        <div>
+        <div style={{ width: '100vw'}}> 
             <div className='backBar'>
                 <a href='www.naver.com'><FontAwesomeIcon icon={faArrowLeft} /></a>
             </div>
-            <div className="imgSlides">
+            <h1>가게 이름</h1>
+            <div className="imgSlides" style={{ height: '210px'}}>
                 <div className="sampleImg">
-                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="profile" width="80%" height="100px"></img>
+                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="profile" width="70%" ></img>
                 </div>
             </div>
-            <h1>가게 이름</h1>
+            <hr />
             <div className="detailInfo">
                     <h2>★ 4.8</h2>
                     <table>

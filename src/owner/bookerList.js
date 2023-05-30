@@ -4,13 +4,13 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function BookerList() {
     return (
-        <div>
+        <div style={{ width: '100vw'}}> 
             <div className='backBar'>
                 <a href='www.naver.com'><FontAwesomeIcon icon={faArrowLeft} /></a>
             </div>
             <br />
             <h1>식당 이름</h1>
-            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="profile" width="90%"></img>
+            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="profile" width="50%"></img>
             <br />
             <br />
             <input type={"date"} className="datePicker" />

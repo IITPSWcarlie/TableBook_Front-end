@@ -4,10 +4,6 @@ import './mainSearch.css';
 function MainSearch() {
     return (
         <div>
-            <div className='backBar'>
-                {/*<FontAwesomeIcon icon="fa-solid fa-arrow-left" />*/}
-                <a href='www.naver.com'><h1>TableBook</h1></a>
-            </div>
             <KakaoMap />
             <div className="searchBar" >
                 <input type="text" placeholder="식당 검색"></input>

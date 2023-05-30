@@ -6,6 +6,13 @@ table {
 th {
     width: 30%;
 }
+th, td{
+    vertical-align : top;
+    text-align: center;
+}
+td {
+    padding-right: 20px; 
+}
 
 .fileInput {
     width: 100%;

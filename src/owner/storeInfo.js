@@ -3,7 +3,7 @@ import './storeInfo.css';
 
 function StoreInfo() {
     return (
-        <div>
+        <div style={{ width: '100vw'}}> 
             <h1>식당 정보</h1>
             <table>
                 <tr>

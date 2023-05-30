@@ -4,7 +4,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 function MyPage() {
     return (
-        <div>
+        <div style={{ width: '100vw'}}>    
             <div className='backBar'>
                 <a href='www.naver.com'><FontAwesomeIcon icon={faArrowLeft} /></a>
             </div>

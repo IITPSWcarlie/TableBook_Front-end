@@ -22,7 +22,10 @@ svg {
     margin-top: 10px;
     font-size: 30px;
 }
-
+th, td{
+    vertical-align : top;
+    text-align: center;
+}
 td {
     padding-right: 20px; 
 }
@@ -42,9 +45,9 @@ input.inputN {
 
 .bookingButton {
     background-color: #003366;
-    height: 60px;
-    padding: 5px;
+    height: 20px;
+    padding: 10px;
 }
-.bookingButton h1 {
+.bookingButton p {
     text-align: center;
 }
